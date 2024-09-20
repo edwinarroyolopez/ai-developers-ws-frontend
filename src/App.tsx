@@ -15,7 +15,9 @@ type Message = {
 
 // Endpoint de Socket.IO
 // const socket = io('http://localhost:4000')
-const socket = io('https://ai-developers-ws-backend-production.up.railway.app')
+// const socket = io('https://ai-developers-ws-backend-production.up.railway.app')
+const socket = io('https://ai-developers-ws-backend.onrender.com')
+
 
 
 export default function GroupChat() {
