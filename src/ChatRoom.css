@@ -1,0 +1,39 @@
+.chat-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .username-input {
+    margin-bottom: 1rem;
+  }
+  
+  .messages-container {
+    flex-grow: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+  }
+  
+  .message-content {
+    margin: 0;
+    color: #555;
+  }
+  
+  .message-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  
+  .send-button {
+    margin-left: 1rem;
+  }
+  
